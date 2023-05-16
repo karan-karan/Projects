@@ -1,5 +1,5 @@
 # Projects
-deploy_Web_service_on_kubernates
+deploy_Web_service_on_kubernetes
 
 
 
