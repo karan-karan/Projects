@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: karan-webapp
+  name: karantanwar-webapp
   labels: 
      app: webapp
 
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: karan/webapp
+        image: karantanwar/webapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
