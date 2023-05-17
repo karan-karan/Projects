@@ -8,7 +8,7 @@
       chdir: /opt/docker
 
   - name: create tag too push on dockerhub
-    command: docker tag webapp:latest karan/webapp:latest
+    command: docker tag webapp:latest karantanwar/webapp:latest
 
   - name: push docker image
-    command: docker push karan/webapp:latest 
+    command: docker push karantanwar/webapp:latest 
